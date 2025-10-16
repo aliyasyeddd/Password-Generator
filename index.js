@@ -2,5 +2,12 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
     "/"];
 
 
+const passwordBtn = document.getElementById("generate-password-btn");
+const passwordOne = document.getElementById("password1");
+const passwordTwo = document.getElementById("password2");
 
 
+
+passwordBtn.addEventListener("click", function () {
+   console.log(characters.length)  
+})
