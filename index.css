@@ -58,12 +58,12 @@ hr {
 
 .passwords {
   background-color: #273549;
-  width: 400px;
+  width: 380px;
   height: 50px;
   border-radius: 5px;
   margin-top: 40px;
   padding: 12px 28px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #5def92;
   text-align: center;
 }
