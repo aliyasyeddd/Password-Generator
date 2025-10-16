@@ -9,5 +9,14 @@ const passwordTwo = document.getElementById("password2");
 
 
 passwordBtn.addEventListener("click", function () {
-   console.log(characters.length)  
+    let randomPassword1 = "";
+    let randomPassword2 = "";
+    for (let i = 0; i < 15; i++) {
+        let randomIndex1 = Math.floor(Math.random() * characters.length);
+        let randomIndex2 = Math.floor(Math.random() * characters.length);
+        randomPassword1 += characters[randomIndex1];
+        randomPassword2 += characters[randomIndex2];
+    }
+    passwordOne.textContent = randomPassword1;
+    passwordTwo.textContent = randomPassword2;
 })

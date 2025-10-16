@@ -1,66 +1,69 @@
 body {
-    margin: 0;
-    background-color: #ECFDF5;
-    font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #ecfdf5;
+  font-family: "Inter", sans-serif;
 }
 
 main {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    max-width: 700px;
-    margin: 0 30px 0 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 700px;
+  margin: 0 30px 0 30px;
 }
 
 .title {
-    color: #2B283A;
+  color: #2b283a;
 }
 
 .green-title {
-    color: #10B981;
+  color: #10b981;
 }
 
 .title,
 .green-title {
-    font-size: 4.8rem;
+  font-size: 4.8rem;
 }
 
 p {
-    color: #6B7280;
-    font-size: 1.6rem;
-    margin-top: 0;
-    font-weight: 400;
+  color: #6b7280;
+  font-size: 1.6rem;
+  margin-top: 0;
+  font-weight: 400;
 }
 
 button {
-    background-color: #10B981;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    padding: 12px 28px;
-    font-size: 1.5rem;
-    cursor: pointer;
+  background-color: #10b981;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 12px 28px;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 hr {
-  border: 1px solid #D5D4D8;
+  border: 1px solid #d5d4d8;
   margin: 20px 0;
   width: 900px;
   margin-top: 60px;
 }
 
-
 .password-section {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .passwords {
-    background-color: #273549;
-    width: 400px;
-    height: 50px;
-    border-radius: 5px;
-    margin-top: 40px;
+  background-color: #273549;
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 12px 28px;
+  font-size: 2rem;
+  color: #5def92;
+  text-align: center;
 }
